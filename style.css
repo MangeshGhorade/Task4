@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+}
+.main-login, .main-signup{
+    padding-bottom: 0.5rem;
+    height: auto;
+    width: 22rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+    background-color: #2E8BC0;
+    box-shadow: 0 3px 5px black;
+}
+.main-signup{
+    width: 23rem;
+}
+.main-signup{
+    display: none;
+}
+.fa-circle-user{
+    font-size: 40px;
+}
+.image p{
+    font-weight: 600;
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+}
+.signup{
+    text-align: left;
+    margin-left: 14%;
+}
+.userTexts , .passTexts , .emailText, .mobText{
+    margin-bottom: 2px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.userText, .passText{
+    margin-bottom: 2px;
+    font-size: 13px;
+    margin-left: -180px;
+}
+#loginUsername , #loginPassword,#signEmail, #signmob, #signUsername,#signPassword{
+    padding: 8px 10px;
+    width: 250px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 20px;
+}
+.loginBtn, .signupBtn{
+   margin-left: 32%;
+   font-size: 15px;
+   padding: 4px 12px;
+   border-radius: 20px;
+   margin-top: 1rem;
+   background-color: #145DA0;
+   color: #B1D4E0;
+   box-shadow: 2px 2px 2px black;
+}
+.loginBtn{
+    margin-left: 0;
+}
+.askSignUp p, a{
+    font-size: 14px;
+    display: inline;
+}
+.askLogin p,a{
+    font-size: 14px;
+    display: inline;
+}
+.askSignUp, .askLogin{
+    margin: 20px 0;
+}
+.askLogin{
+    margin-left: 1rem;
+}
+.welcome{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50rem;
+    margin: auto;
+    margin-top: 4rem;
+    background-color: white;
+    box-shadow: 4px 4px 8px black;
+}
+.welcome img{
+    height: 25rem;
+}
+.login{
+    text-decoration: none;
+    color: black
+}
